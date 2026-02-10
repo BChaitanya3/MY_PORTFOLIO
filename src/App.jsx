@@ -3,11 +3,11 @@ import "./App.css";
 import { LoadingScreen } from "./Components/LoadingScreen";
 import { Navbar } from "./Components/Navbar";
 import { MobileMenu } from "./Components/MobileMenu";
-import { Home } from "./components/sections/Home";
-import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/Projects";
+import { Home } from "./Components/Sections/Home";
+import { About } from "./Components/Sections/About";
+import { Projects } from "./Components/Sections/Projects";
 import "./index.css";
-import { Contact } from "./components/sections/Contact";
+import { Contact } from "./Components/Sections/Contact";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
