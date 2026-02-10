@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  base: "/MY_PORTFOLIO/", // ✅ trailing slash REQUIRED
+  plugins: [react()],
+  base: "/",   // ✅ IMPORTANT (was /MY_PORTFOLIO/)
 });
