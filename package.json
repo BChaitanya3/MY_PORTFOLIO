@@ -1,16 +1,16 @@
 {
   "name": "portfolio",
-  "homepage": "https://Chaitanya4036.github.io/MY_PORTFOLIO",
+  "homepage": "https://bchaitanya3.github.io/MY_PORTFOLIO/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+   "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
